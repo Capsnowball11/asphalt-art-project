@@ -1,0 +1,82 @@
+import org.code.neighborhood.*;
+public class PainterSky extends PainterPlus {
+
+  public void paintSky (String color){
+    turnRight();
+    move();
+    turnLeft();
+    move();
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    turnRight();
+    move();
+    turnRight();
+    move();
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    turnLeft();
+    move();
+    turnLeft();
+    move();
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    move();
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    turnRight();
+    move();
+    turnRight();
+    move();
+    move();
+    paintMove(color);
+    paintMove(color);
+    paintMove(color);
+    move();
+    move();
+    move();
+    paintMove(color);
+    paintMove(color);
+    turnLeft();
+    move();
+    turnLeft();
+    move();
+    paintMove(color);
+    move();
+    move();
+    move();
+    move();
+    move();
+    paintMove(color);
+    while (canMove()) {
+      move();
+    }
+    turnRight();
+    while (canMove()) {
+      move();
+    }
+    turnRight();
+  while (canMove()) {
+      move();
+    }    
+  }
+}
